@@ -1,7 +1,7 @@
 import Profile03 from "./Profile03";
 
 
-const Gallery = () => {
+export const Gallery = () => {
 return (
     <section>
         <h1>Amazing scientists</h1>
@@ -11,4 +11,14 @@ return (
     </section>
     );
 }
-export default Gallery;
+// const Gallery = () => {
+//     return (
+//         <section>
+//             <h1>Amazing scientists</h1>
+//             <Profile03 />
+//             <Profile03 />
+//             <Profile03 />
+//         </section>
+//         );
+// }
+// export default Gallery;

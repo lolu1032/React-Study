@@ -1,4 +1,8 @@
 export const Bio = () => {
+    /**
+     * JSX같은 경우에는 무조건 열었으면 닫아야한다
+     * 
+     */
     return (
         <>
             <div class="intro">

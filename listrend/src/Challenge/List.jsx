@@ -14,7 +14,7 @@ return (
     <h1>Scientists</h1>
     <ul>
         {chemists.map(person => 
-            <li key={person.id}>
+            <li>
                 <img
                     src={getImageUrl(person)}
                     alt={person.name}
@@ -29,7 +29,7 @@ return (
     </ul>
     <ul>    
         {everyoneElse.map(person => 
-            <li key={person.id}>
+            <li>
                 <img
                     src={getImageUrl(person)}
                     alt={person.name}

@@ -1,0 +1,18 @@
+.board-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 60px);
+  grid-template-rows: repeat(3, 60px);
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.board {
+  width: 60px;
+  height: 60px;
+  background-color: #eee;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 60px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
